@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Movie Details</title>
+
+    <style>
+        body{
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+            transition: 0.3s;
+        }
+
+        .dark-mode{
+            background-color: #121212;
+            color: white;
+        }
+
+        .movie-card{
+            width: 400px;
+            padding: 20px;
+            border: 1px solid gray;
+            border-radius: 10px;
+            margin: 50px auto;
+        }
+
+        img{
+            width:400px;
+            height: 300px;
+        }
+
+        button{
+            background-color: #f84464;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #d63050;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="changeMode()">Light / Dark Mode</button>
+
+    <div class="movie-card">
+        <img src="/session-4/Alpha.jpg" alt="Movie Poster">
+
+        <h1>Alpha 2</h1>
+        <p>Action | Drama | 3h 15min</p>
+
+        <p>
+            Driven by revenge, a young girl destroys anyone in her path until
+             her journey uncovers the hidden truths of her own life.
+        </p>
+
+        <h3>Rating: 4.5/5</h3>
+    </div>
+
+
+    <script>
+        function changeMode(){
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+
+</body>
+</html>

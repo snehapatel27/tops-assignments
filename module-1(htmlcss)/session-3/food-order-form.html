@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food order form</title>
+</head>
+<body>
+    <h1 align="center">food order:</h1>
+    <form method="post">
+    <table align="center">
+        <tr>
+            <td>
+                <label for="orderid">Order ID:</label>
+            </td>
+            <td>
+                <input type="text" id="orderid" name="orderid" value="ORD12345" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="username">User Name:</label>
+            </td>
+            <td>
+                <input type="text" name="username" id="username" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="fooditem">food iteam:</label>
+            </td>
+        
+            <td>
+                <select name="food-item" id="fooditem" required>
+                    <option value="">select food</option>
+                    <option value="pani-puri">pani-puri</option>
+                    <option value="dilhi-chat">dilhi-chat</option>
+                    <option value="dahi-puri">dahi-puri</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="quantity">Quantity:</label>
+            </td>
+            <td>
+                <input type="number" name="quantity" min="1" id="quantity" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="instructions">delivery instructions:</label>
+            </td>
+            <td>
+                <textarea name="instructions" id="instructions" required></textarea>
+            </td>
+        </tr>
+        <tr>
+           <td colspan="2" align="center">
+                <input type="submit" value="submit">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

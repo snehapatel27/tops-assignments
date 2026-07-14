@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BookMyShow Movie Posters</title>
+
+<style>
+
+.movie-grid{
+    display: flex;
+    gap: 30px;
+}
+
+.poster{
+    position: relative;
+}
+
+.poster img{
+    height: 300px;
+    width: 200px;
+}
+
+.new-badge{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>BookMyShow Movies</h1>
+
+<div class="movie-grid">
+
+    <div class="poster">
+        <img src="movie-1.jpg" alt="Movie 1">
+        <span class="new-badge">NEW</span>
+    </div>
+
+    <div class="poster">
+        <img src="movie-2.jpg" alt="Movie 2">
+    </div>
+
+    <div class="poster">
+        <img src="movie-3.jpg" alt="Movie 3">
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flipkart Product Grid</title>
+
+<style>
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.product-card img{
+    width: 150px;
+    height: 150px;
+}
+@media (max-width: 768px){
+
+    .product-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* Mobile Screen */
+@media (max-width: 480px){
+
+    .product-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Flipkart Products</h1>
+
+<section class="product-grid">
+
+     <article class="product-card">
+        <img src="camera.jpg" alt="Camera">
+        <h3>Camera</h3>
+    </article>
+
+    <article class="product-card">
+        <img src="phone.jpg" alt="Mobile">
+        <h3>Smart Phone</h3>
+    </article>
+
+   
+
+    <article class="product-card">
+        <img src="watch.jpg" alt="Watch">
+        <h3>Smart Watch</h3>
+    </article>
+
+    <article class="product-card">
+        <img src="headphone.jpg" alt="Headphone">
+        <h3>Headphone</h3>
+    </article>
+
+     <article class="product-card">
+        <img src="/session-4/laptop.jpg" alt="Laptop">
+        <h3>Laptop</h3>
+    </article>
+
+    <article class="product-card">
+        <img src="shose1.jpg" alt="Shoes">
+        <h3>Sports Shoes</h3>
+    </article>
+
+   
+
+</section>
+
+</body>
+</html>

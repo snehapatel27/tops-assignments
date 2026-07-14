@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1 align="center">Product Review</h1>
+   <form method="post">
+    <table align="center">
+        <tr>
+           <td> <label>User Name:</label> </td>
+            <td><input type="text" name="username"      required ></td>
+        </tr>
+         <tr>
+             <td><label>Rating:</label></td>
+             <td><select name="rating" id="rating" required>
+                <option value="" disabled selected>Select Rating</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+            </td>
+         </tr>   
+         <tr>
+            <td><label>Review Message:</label></td>
+            <td><textarea name="review" id=""  minlength="20" required></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Submit">
+    </td>
+</tr>
+    </table>
+   </form>
+</body>
+</html>
