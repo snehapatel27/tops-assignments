@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flipcart card</title>
+    <style>
+        .main{
+            display: flex;
+            gap: 30px;
+
+        }
+        .product{
+            height: 500px;
+            width: 500px;
+            border: 1px solid black;
+            border-radius: 30px;
+            
+        }
+        .product img {
+            height: 350px;
+            width: 500px ;
+            border-top-left-radius: 40px;
+             border-top-right-radius: 40px;
+        }
+        h2{
+            padding-left: 20px;
+        }
+
+       
+
+        @media only screen and (max-width: 1200px) {
+    .product {
+        font-size: 50px;
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .product {
+        font-size: 30px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .product {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="product">
+        <img src="/module-1(htmlcss)/session-5/teddy.jpg" alt="" srcset="">
+        <h2 style="background-color: antiquewhite" >Teddy Bear</h2>
+        <!-- <p>RSS SOFT TOYS Adorable Strawberry Rabbit Plushie, Cute Bunny Soft Toy.</p>
+        <p style="margin-left: 10px;"><del>599</del> 299</p> -->
+        </div>
+        <div class="product"  >
+            <img src="/module-1(htmlcss)/session-8/teddy2.jpg" alt="" srcset="">
+            <h2 style="background-color: antiquewhite" >Teddy Bear</h2>
+            <!-- <p>RSS SOFT TOYS Adorable Strawberry Rabbit Plushie, Cute Bunny Soft Toy.</p>
+            <p style="margin-left: 10px;"><del>1499</del> 1399</p> -->
+        </div>
+        <div class="product"  >
+            <img src="/module-1(htmlcss)/session-8/teddy3.jpg" alt="" srcset="">
+            <h2 style="background-color: antiquewhite" >soft toy</h2>
+            <!-- <p>RSS SOFT TOYS Adorable Strawberry Rabbit Plushie, Cute Bunny Soft Toy.</p>
+            <p style="margin-left: 10px;"><del>799</del> 315</p> -->
+        </div>
+   
+    </div>
+    
+</body>
+</html>
