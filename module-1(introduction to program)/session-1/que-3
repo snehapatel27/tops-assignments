@@ -1,0 +1,24 @@
+flowchart for BookMyShow
+
+
+Start
+↓
+Open BookMyShow App
+↓
+Select City
+↓
+Select Movie
+↓
+Select Date and Show Time
+↓
+Select Seats
+↓
+Check Seat Availability
+↓
+If Seats Available → Proceed to Payment
+↓
+Make Payment
+↓
+If Payment Successful → Booking Confirmation Received
+↓
+End

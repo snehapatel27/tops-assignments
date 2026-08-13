@@ -13,7 +13,7 @@ main(){
 	scanf("%d",&share);
 	printf("likes :=%d comment :=%d share :=%d",like,comment,share);
 	
-	if(like>=1000 || comment>200 && share>=50){
+	if((like>=1000 || comment>200)&& share>50){
 		printf("\n post is trending on Instagram ");
 	}
 	else{
