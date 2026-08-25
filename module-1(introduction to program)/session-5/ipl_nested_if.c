@@ -2,6 +2,7 @@
 main(){
 	int team;
 	printf("\nenter your fav team:=");
+	
 	printf("\n 1.mumbai indian");
 	printf("\n 2.rcb");
 	printf("\n 3.csk");
