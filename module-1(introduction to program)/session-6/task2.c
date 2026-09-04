@@ -10,6 +10,11 @@ main(){
 		
 		printf("\n enter the choice:");
 		scanf("%d",&choice);
+		
+		if(choice==3){
+			break;
+		}
+		
 	
 		switch(choice)
 		{
@@ -22,9 +27,8 @@ main(){
 				printf("\n add team");
 				scanf("%s",team);
 				break;
-			case 3:
-				 printf("\nExit...");
-				return 0;
+			default:
+				printf("invalide choice");
 		}
 	}
 }
