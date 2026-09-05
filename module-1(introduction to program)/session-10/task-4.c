@@ -2,6 +2,6 @@
 main(){
 	char name[30];
 	printf("enter the fullname:=");
-	fgets(name,6,stdin);
+	fgets(name,5,stdin);
 	printf("mane is=%s",name);
 }
