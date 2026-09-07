@@ -8,6 +8,6 @@ main(){
 	int i;
 	printf("secound playlist:\n");
 	for(i=0;i<5;i++){
-		printf("%d\t",playlistrating[2][i]);
+		printf("%d\t",playlistrating[1][i]);
 	}
 }

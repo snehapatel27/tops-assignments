@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 main(){
 	int CricketScore[3][2]={
 	{190,210},

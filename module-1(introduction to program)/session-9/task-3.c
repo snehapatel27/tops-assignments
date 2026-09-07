@@ -5,9 +5,10 @@ float calculateAvrage(int amount[],int size)
 	int i;
 	for(i=0;i<size;i++){
 		sum=sum+amount[i];
-		printf("\n %d",sum);
+		//printf("\n %d",sum);
 	}
 	return(float)sum/size;
+
 }
 main(){
 	int dailyorders[7]={100,300,450,250,550,500,700};

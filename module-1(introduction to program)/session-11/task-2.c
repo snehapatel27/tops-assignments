@@ -4,8 +4,7 @@ int swapPlaylistCounts(int *a, int *b)
 	int temp;
 	temp=*a;
 	*a=*b;
-	*b=temp;
-	
+	*b=temp;	
 }
 main(){
 	int playlist1=50;
