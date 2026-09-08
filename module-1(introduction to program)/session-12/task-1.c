@@ -11,3 +11,5 @@ main(){
 	printf("artist:%s\n",song.artist);
 	printf("suration:%d\n",song.duration);
 }
+
+
