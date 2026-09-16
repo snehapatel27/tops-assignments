@@ -16,6 +16,5 @@ main()
 		fprintf(fp, "Day %d: %d minutes\n", i + 1, minutes[i]);
     }
     fclose(fp);
-
-    printf("\nMusic listening data saved successfully!");
+	printf("\nMusic listening data saved successfully!");
 }

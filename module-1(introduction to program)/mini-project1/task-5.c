@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 main()
 {
     int minutes[7] = {0};
