@@ -6,8 +6,8 @@ class foodOrder{
 	char resturantName[50];
 	bool delivered;
 	void markDelivered(){
-		delivered = false;
-	 	cout << "\nOrder is not Delivered";
+		delivered = true;
+	 	cout << "\nOrder is Delivered";
 	}
 };
 main(){

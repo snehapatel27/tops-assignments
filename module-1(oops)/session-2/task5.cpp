@@ -6,9 +6,9 @@ class foodOrder{
 		string restaurantName;
 		bool isdelivered;
 		
-//		foodOrder()
-//		{
-//		}
+		foodOrder()
+		{
+		}
 		
 		foodOrder(const foodOrder &o)
 		{
