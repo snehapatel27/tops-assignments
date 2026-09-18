@@ -24,7 +24,7 @@ class GamingYouTuber : public youTuber{
 		string gameName;
 		void streamGame(string gameName)
 		{
-			cout<<"\n"<<userName<<"is now streaming"<<"\t"<<gameName<<"on"<<channelName;
+			cout<<"\n"<<userName<<"is now streaming"<<gameName<<"on"<<channelName;
 		}
 };
 
@@ -35,7 +35,6 @@ class GamingYouTuber : public youTuber{
 		g1.followers=1000;
 		g1.channelName="sneha teach";
 		g1.displayProfile();
-		g1.gameName="super mariyo";
 		g1.streamGame("super mariyo");
 	// 	g1.uploadVideo("gaming video");	
 	}

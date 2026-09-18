@@ -38,8 +38,6 @@ class InstagramInfluencer :public socialMediaUser{
 		InstagramInfluencer i1;
 		i1.userName="sneha";
 		i1.followers=1000;
-		//i1.channelName="sneha teach";
 		i1.displayProfile();
 		i1.postStory("my new story");
-		//y1.uploadVideo("c++ tutorial");	
 	}

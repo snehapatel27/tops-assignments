@@ -11,5 +11,5 @@ main()
 {
 	Ticket *t = new Ticket();
 	cout<<"\n Ticket book successfully..";
-//	delete t;
+	delete t;
 }
