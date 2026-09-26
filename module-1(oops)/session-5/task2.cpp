@@ -23,10 +23,10 @@ class youtubUploder : public socialMediaUploder{
 };
 main()
 {
-//	instagramUploder instagram;
+	instagramUploder instagram;
 	youtubUploder youtube;
 	
-//	instagram.uplodcontent();
+	instagram.uplodcontent();
 	youtube.uplodcontent();
 	
 
