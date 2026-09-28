@@ -1,0 +1,5 @@
+The OOP version solved three main problems of the C version:
+
+Better organization of data and functions.
+Easier task management using methods.
+More reusable and maintainable code.
