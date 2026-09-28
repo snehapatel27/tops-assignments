@@ -15,11 +15,10 @@ int main()
     file << "ashav27\n";
     file << "diya2230\n";
     file << "amita01\n";
-   
 
     file.close();
 
-    // Read file and count followers
+   
     ifstream readFile;
     readFile.open("insta_followers.txt");
 
@@ -30,7 +29,6 @@ int main()
 
     readFile.close();
 
-    // Display total followers
     cout << "Total Followers: " << count;
 
     return 0;
