@@ -33,7 +33,6 @@ main()
 	cout << "Old Title: " << s.getTitle();
     cout << "Artist: " << s.getArtist();
 
-    // Update title
     s.setTitle("Tum Hi Ho");
 
     cout << "Updated Title: " << s.getTitle();

@@ -74,9 +74,9 @@ main()
 {
     TaskList list;
 
-    list.addTask("Complete Python Assignment");
+    list.addTask("Complete c++ Assignment");
     list.addTask("Study C++");
-    list.addTask("Practice Pandas");
+    list.addTask("Practic c++");
 
     list.markTaskDone(1);
 

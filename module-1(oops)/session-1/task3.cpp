@@ -30,7 +30,7 @@ class Task
 	    }
 };
 
-int main()
+main()
 {
     Task task("Complete C++ Assignment");
 
@@ -40,6 +40,4 @@ int main()
 
     cout << "\nAfter completing task:\n";
     task.display();
-
-    return 0;
 }
